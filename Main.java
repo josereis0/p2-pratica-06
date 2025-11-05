@@ -67,7 +67,7 @@ public class Main {
                 case 4:
                     System.out.print("Informe o CPF do funcionário: ");
                     String cpfBusca = sc.nextLine();
-                    boolean encontrado = false;
+                
 
                     for (Funcionario f : funcionarios) {
                         if (f.getCpf().equals(cpfBusca)) {
